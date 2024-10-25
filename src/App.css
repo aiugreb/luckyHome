@@ -1,0 +1,89 @@
+/* Hero Section */
+.hero {
+    position: relative;
+    background-image: url('https://i.imgur.com/YGcJuAk.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  z-index: 1;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Travel Info Section */
+.travel-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+.info-content {
+  max-width: 50%;
+}
+
+.info-image img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Promo Section */
+.promos {
+    background-color: #5ca9d1;
+    padding: 40px;
+    text-align: center;
+}
+
+.promo-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin: 10px;
+}
+
+.card h3 {
+  color: #007bff;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
