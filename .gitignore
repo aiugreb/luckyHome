@@ -80,4 +80,5 @@ coverage/
 jest/
 # Storybook
 storybook-static/
-
+#package
+package-lock.json
