@@ -1,12 +1,12 @@
 <h1 align="left">
 <strong>Luckyhome </strong>
- <img align="right" alt="Luckyhome Logo" src="./Luckyhome-frontend/src/assets/images/Tc-removebg.png" width="200">
+ <img align="right" alt="Luckyhome Logo" src="./Luckyhome-frontend/src/assets/images/Lh-removebg.png" width="200">
 </h1>
 
 **Unleash Your Wanderlust**
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 10px; width: 300px;">
-  <img src="./Luckyhome-frontend/public/TC-interface.png" alt="Luckyhome interface 1" style="width: 100%; height: auto; transition: transform 0.3s;">
+  <img src="./Luckyhome-frontend/public/Lh-interface.png" alt="Luckyhome interface 1" style="width: 100%; height: auto; transition: transform 0.3s;">
   <img src="./Luckyhome-frontend/public/adventuresListing.png" alt="Luckyhome interface 2" style="width: 100%; height: auto; transition: transform 0.3s;">
   <img src="./Luckyhome-frontend/public/adventureBookingPage.png" alt="Luckyhome interface 3" style="width: 100%; height: auto; transition: transform 0.3s;">
 </div>
