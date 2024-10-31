@@ -1,0 +1,84 @@
+/* HomePage.css */
+
+.home-page {
+  width: 100%; /* Full width background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero-section {
+    width: 100vw;
+    height: 80vh; /* Adjust height for a larger hero section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://i.imgur.com/C3eLSBW.jpeg'); /* Replace with your desired background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white; /* White text for contrast */
+}
+
+/* Center the text within a container */
+.hero-text {
+    position: relative;
+    z-index: 2; /* Place text above the overlay */
+}
+
+    .hero-text h1 {
+        font-size: 4rem; /* Adjust font size */
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+
+.featured-adventures {
+  width: 100vw;
+  padding: 40px 0;
+  background-color: var(--background-color); /* Different background if needed */
+}
+
+.featured-adventures .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Add padding to keep content framed */
+  box-sizing: border-box;
+}
+
+.search-filter-container {
+  margin-top: 20px;
+}
+
+/* Featured Adventures Section */
+.featured-adventures {
+  width: 100%; /* Ensure full-width background color */
+  padding: 0; /* Remove padding to avoid shifting */
+}
+
+/* Call to Action Section */
+.cta-section {
+  background-color: #fff; /* Use a different background color if needed */
+}
+
+/* Responsive adjustments for Home Page */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .hero-text p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+}

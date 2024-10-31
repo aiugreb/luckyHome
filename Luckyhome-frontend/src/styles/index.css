@@ -1,0 +1,101 @@
+/* index.css */
+
+/* Define CSS Variables */
+:root {
+  --background-color:  #FFFFFF;
+  --hero-background-color: #F5F5F5;
+  --font-family-base: 'Montserrat', sans-serif;
+  --font-family-heading: 'Raleway', sans-serif;
+  --brand-color:  #FAFAD2;
+  --cta-button-background: #E53935;
+  --cta-button-background-hover: #FF4500;
+  --text-color: rgb(11, 11, 11);
+}
+
+/* General Styles */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family-base);
+}
+
+/* Root Element */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Global Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10 20px;
+  box-sizing: border-box;
+}
+
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+  margin: 0;
+}
+
+p, a, span, li {
+  font-family: var(--font-family-base);
+}
+
+/* Link Styles */
+a {
+  color: var(--brand-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+.cta-button {
+  background-color: var(--cta-button-background);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-family-base);
+}
+
+.cta-button:hover {
+  background-color: var(--cta-button-background-hover);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p, a, span, li {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,227 @@
+/* Search Filter Container */
+.search-filter {
+  background-color: #fff; /* Clean white background */
+  padding: 10px 15px; /* Reduced padding for a lighter feel */
+  border-radius: 25px; /* Softer rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Lighter shadow */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Reduced gap between elements */
+  justify-content: space-between;
+  margin: 20px auto; /* Center the filter container */
+  margin-top: -35px;
+}
+
+/* Search Field */
+.search-field {
+  flex: 1 1 200px; /* Smaller responsive width */
+  display: flex;
+  align-items: center;
+  padding: 8px 10px; /* Reduced padding */
+  border-radius: 8px; /* Consistent rounded corners */
+  background-color: #f9f9f9; /* Lighter gray background */
+  border: 1px solid #ccc; /* Subtle border */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.search-field:hover,
+.search-field:focus-within {
+  border-color: #E53935; /* Brand accent color on focus/hover */
+  box-shadow: 0 0 5px rgba(255, 87, 34, 0.2); /* Subtle accent shadow */
+}
+
+.search-field input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px; /* Smaller font size */
+  color: #333;
+}
+
+/* Search Icon */
+.search-icon {
+  margin-right: 8px; /* Balanced spacing */
+  color: #E53935;
+}
+
+/* Autocomplete Suggestions */
+.autocomplete-dropdown {
+  position: absolute;
+  top: calc(100% + 5px); /* Separated from input */
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Soft shadow */
+  animation: fadeIn 0.3s ease;
+}
+
+.autocomplete-dropdown div {
+  padding: 10px; /* Comfortable padding */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.autocomplete-dropdown div:hover {
+  background-color: #f9f9f9;
+}
+
+/* Date Range Picker */
+.react-datepicker-wrapper {
+  width: 45%; /* Give both date pickers a consistent width */
+  display: inline-block;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px; /* Smaller font size */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+.react-datepicker__input-container input:focus {
+  border-color: #E53935;
+}
+
+/* Adjust the parent container of the DatePicker for better alignment */
+.search-field.date-range {
+  display: flex;
+  gap: 8px; /* Space between the two date inputs */
+  width: 100%;
+}
+
+/* Selected Day Styles */
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range {
+  background-color: #E53935;
+  color: #fff;
+}
+
+/* Align the calendar icons with date inputs */
+.search-field.date-range .search-icon {
+  margin-right: 6px;
+  color: #E53935;
+}
+
+/* Guests Dropdown */
+.people-picker-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  z-index: 10;
+  padding: 15px; /* Spacious dropdown padding */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Deep shadow */
+  animation: fadeIn 0.3s ease;
+}
+
+.people-picker-dropdown div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.people-picker-dropdown label {
+  font-size: 14px; /* Smaller font size */
+  font-weight: normal;
+  color: #333;
+}
+
+.people-picker-dropdown button {
+  background-color: #f9f9f9;
+  border: none;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px; /* Smaller font size */
+  transition: background-color 0.2s ease;
+}
+
+.people-picker-dropdown button:hover {
+  background-color: #ddd;
+}
+
+.people-picker-dropdown span {
+  font-size: 14px; /* Smaller font size */
+}
+
+/* Search Button */
+.search-button {
+  background-color: #E53935;
+  color: #fff;
+  border: none;
+  width: 40px; /* Set equal width and height */
+  height: 40px; /* Set equal width and height */
+  border-radius: 50%; /* Make it a perfect circle */
+  font-size: 14px; /* Smaller font size */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content */
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+.search-button:hover {
+  background-color: #e64a19;
+}
+
+.magnet {
+  transition: transform 0.2s ease-in-out;
+}
+
+.search-button:hover .magnet {
+  transform: scale(1.05);
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 12px; /* Smaller font size */
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .search-filter {
+    flex-direction: column;
+  }
+
+  .search-field,
+  .search-button {
+    width: 100%;
+  }
+
+  .people-picker-dropdown {
+    width: 100%;
+  }
+}
