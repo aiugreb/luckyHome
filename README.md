@@ -1,6 +1,6 @@
 <h1 align="left">
 <strong>Luckyhome </strong>
- <img align="right" alt="Luckyhome Logo" src="./Luckyhome-frontend/src/assets/images/lh-removebg.png" width="200">
+ <img align="right" alt="Luckyhome Logo" src="./Luckyhome-frontend/src/assets/images/lh-removebg.png" width="100">
 </h1>
 
 **Unleash Your Wanderlust**
