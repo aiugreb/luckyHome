@@ -11,30 +11,21 @@
 
 ---
 
-## **Introducing Luckyhome**
+## **WHY Luckyhome?**
 
 Lucky Home is a luxury rental platform specializing in high-end villas and apartments in Morocco, offering clients an exclusive and private hotel-like experience. Lucky Home manages the properties, transforming them to fit the brand’s luxurious image. Clients can book their stay and a range of premium services, such as catering, yoga sessions, personal chauffeurs, and a huge number of extra activities
 
 
-## **The Author Behind Luckyhome**
+## **WHO BUILD THE WEBSITE**
 
 * **BERGUIA_MOHAMEDAMINE** - A passionate with software engineering and finance and entrepreneurship and the idea is coming from a business in real life where i was working on it.
 
-## **The Untapped Potential**
-
-* The global adventure tourism market is valued at approximately $550 billion and is projected to grow at a CAGR of 15-17% in the coming years.
-* luckyhome is poised to capture this market by providing a user-centric platform that simplifies the discovery and booking process.
-
-## **Join the Adventure**
-
-* **Investors:** We're seeking  seed funding to accelerate our growth and expand our reach.
-* **Adventure Providers:** Partner with us and unlock a world of opportunities.
-* **Travelers:** Sign up for early access and embark on your next extraordinary journey.
-
 In the project directory, you can run:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
