@@ -3,7 +3,6 @@
  <img align="right" alt="Luckyhome Logo" src="./Luckyhome-frontend/src/assets/images/lh-removebg.png" width="100">
 </h1>
 
-**Unleash Your Wanderlust**
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 10px; width: 300px;">
   <img src="./Luckyhome-frontend/public/Lh-interface.png" alt="Luckyhome interface 1" style="width: 100%; height: auto; transition: transform 0.3s;">
