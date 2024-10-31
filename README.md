@@ -7,7 +7,6 @@
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 10px; width: 300px;">
   <img src="./Luckyhome-frontend/public/Lh-interface.png" alt="Luckyhome interface 1" style="width: 100%; height: auto; transition: transform 0.3s;">
-  <img src="./Luckyhome-frontend/public/adventuresListing.png" alt="Luckyhome interface 2" style="width: 100%; height: auto; transition: transform 0.3s;">
   <img src="./Luckyhome-frontend/public/adventureBookingPage.png" alt="Luckyhome interface 3" style="width: 100%; height: auto; transition: transform 0.3s;">
 </div>
 
